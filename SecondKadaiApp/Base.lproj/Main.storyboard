@@ -63,11 +63,12 @@
                         <outlet property="button" destination="Ruc-0V-V8v" id="3Ru-5S-z47"/>
                         <outlet property="label" destination="R31-Go-QkR" id="Y3Z-e0-90q"/>
                         <outlet property="text" destination="R31-Go-QkR" id="iTe-lw-jBL"/>
+                        <outlet property="textfield" destination="Jnk-cz-mhu" id="gcu-s5-J0C"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="996" y="-294"/>
+            <point key="canvasLocation" x="1065" y="-829"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="zMK-ul-g5P">
@@ -111,7 +112,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tkO-Se-p4H" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="97K-SP-MI8" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1704" y="-295"/>
+            <point key="canvasLocation" x="1749" y="-843"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var textfield: UITextField!
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var text: UILabel!
     @IBOutlet weak var button: UIButton!
@@ -22,13 +23,11 @@ class ViewController: UIViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
-
-        resultViewController.name = UITextField.text
+        
+        resultViewController.name = textfield.text!
         
     }
     @IBAction func unwind(_segue: UIStoryboardSegue) {
 
     }
 }
-// SecondViewControllerのtextに選択した文字列を設定する
-//secondVC.text = selectedText
